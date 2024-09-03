@@ -1,0 +1,17 @@
+npx create-expo-app client --template blank
+npx expo start
+
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+
+npx tailwindcss init
+https://www.nativewind.dev/quick-starts/react-native-cli
+
+npm i @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+npm i react-native-feather
+
+npm i react-native-maps
+
+npm install @reduxjs/toolkit react-redux
